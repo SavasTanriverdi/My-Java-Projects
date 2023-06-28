@@ -24,10 +24,12 @@ public class ClassSkip {
 		System.out.println("Not Ortalamanız: " + notOrtalamasi);
 		
 		if (notOrtalamasi < 50) {
-			System.out.println("Kaldınız Seneye Gorusuruz :)");
-		}else if (notOrtalamasi >= 50) {
-			System.out.println("Gectiniz");
+			System.out.println("Kaldınız. Seneye Görüşürüz :)");
+		} else {
+			System.out.println("Geçtiniz");
 		}
+		
+		scanner.close();
 	}
 
 }
