@@ -20,6 +20,7 @@ public class WhileExamples {
 		}
 		*/ 
 		
+		/* ÖRNEK 2:
 		Scanner scanner = new Scanner(System.in);
 		
 		int toplam = 0;
@@ -39,6 +40,19 @@ public class WhileExamples {
 				toplam += input;
 			}
 		}
+		*/
+		
+		/* ÖRNEK 3 
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Sayi giriniz: ");
+		int input = scanner.nextInt();
+		int k = 1;
+		
+		while (k <= input) {
+			System.out.println(k);
+			k = k * 2;
+		}
+		*/
 		
 	}
 
